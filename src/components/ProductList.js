@@ -1,7 +1,18 @@
 import React, {Component} from 'react';
 import Product from "./Product";
-import Title from "./Title";
+import { HeadingButton } from "./Button";
 import { ProductConsumer } from '../context';
+import middleImage from '../middleImage.png';
+import styled from "styled-components";
+import logo from "../logo.png";
+
+const MiddleImage = styled.div`
+  margin-right: inherit;
+  margin-left: inherit;
+  width:800px;
+  
+
+`;
 
 class ProductList extends Component {
     render() {
@@ -9,7 +20,12 @@ class ProductList extends Component {
             <React.Fragment>
                 <div className='py-5'>
                     <div className='container'>
-                        <Title name='our' title='products' />
+                        <MiddleImage>
+                            <img src={middleImage} width='800px' alt='store' className='navbar-brand' />
+                        </MiddleImage>
+                        <HeadingButton>
+                            Choose Your Pizza From Down Below
+                        </HeadingButton>
                         <div className='row'>
                             <ProductConsumer>
                                 {value=>{

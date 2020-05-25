@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import Title from '../Title';
 import CartColumns from './CartColumns';
 import EmptyCart from './EmptyCart';
 import {ProductConsumer} from '../../context';
 import CartList from './CartList';
 import CartTotals from './CartTotals';
+import {HeadingButton} from "../Button";
 class Cart extends Component {
     render() {
         return (
@@ -16,7 +16,7 @@ class Cart extends Component {
                             if(cart.length>0){
                                 return(
                                     <React.Fragment>
-                                        <Title name='Your' title='cart' />
+                                        <HeadingButton>Your Cart</HeadingButton>
                                         <CartColumns/>
                                         <CartList value={value} />
                                         <CartTotals value={value} history={this.props.history}/>

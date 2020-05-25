@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import logo from "../logo.svg";
+import logo from "../logo.png";
 import { ButtonContainer } from './Button';
 
 const NavHead = styled.nav`
@@ -18,10 +18,7 @@ class Navbar extends Component {
         return (
           <NavHead className='navbar navbar-expand-sm bg-danger navbar-dark px-sm-5'>
               <Link to='/'>
-                  <img src={logo} width='80' height='80' alt='store' className='navbar-brand' />
-              </Link>
-              <Link to='/' className='nav-link'>
-                  <h1>Pizzagram</h1>
+                  <img src={logo}  alt='store' className='navbar-brand' />
               </Link>
               <Link to='/' className='ml-auto'>
                   <ButtonContainer>

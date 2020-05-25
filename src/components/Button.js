@@ -38,3 +38,25 @@ $focus{
 outline:none;
 }
 `;
+
+export const HeadingButton = styled.button`
+text-transform:capitalize;
+font-size: 40px;
+background: 0.5rem solid var(--tomatoRed);
+color:var(--tomatoRed);
+border-radius: 0.5rem;
+padding: 0.2rem 0.5rem;
+margin-right:9rem;
+margin-left:9rem;
+cursor: pointer;
+margin-top:30px;
+margin-bottom:30px
+transition:all 0.5s ease-in-out;
+&:hover{
+background:var(--tomatoRed);
+color:var(--mainWhite);
+}
+$focus{
+outline:none;
+}
+`;
