@@ -4,7 +4,6 @@ import { HeadingButton } from "./Button";
 import { ProductConsumer } from '../context';
 import middleImage from '../middleImage.png';
 import styled from "styled-components";
-import logo from "../logo.png";
 
 const MiddleImage = styled.div`
   margin-right: inherit;
