@@ -4,7 +4,7 @@ import EmptyCart from './EmptyCart';
 import {ProductConsumer} from '../../context';
 import CartList from './CartList';
 import CartTotals from './CartTotals';
-import {HeadingButton} from "../Button";
+import {HeadingButton} from "../Main/Button";
 class Cart extends Component {
     render() {
         return (

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import Product from "./Product";
 import { HeadingButton } from "./Button";
-import { ProductConsumer } from '../context';
-import middleImage from '../middleImage.png';
+import { ProductConsumer } from '../../context';
+import middleImage from '../../middleImage.png';
 import styled from "styled-components";
 
 const MiddleImage = styled.div`

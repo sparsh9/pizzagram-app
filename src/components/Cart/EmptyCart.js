@@ -1,5 +1,5 @@
 import React from 'react';
-import {HeadingButton} from "../Button";
+import {HeadingButton} from "../Main/Button";
 
 export default function EmptyCart() {
     return (
