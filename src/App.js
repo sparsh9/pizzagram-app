@@ -2,12 +2,12 @@ import React from 'react';
 import {Switch,Route} from "react-router-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "./components/Main/Navbar";
-import ProductList from "./components/Main/ProductList";
+import Navbar from "./components/MainPages/Navbar";
+import ProductList from "./components/MainPages/ProductList";
 import Cart from "./components/Cart/Cart";
-import Details from "./components/Main/Details";
-import Default from "./components/Main/Default";
-import Modal from "./components/Main/Modal";
+import Details from "./components/MainPages/Details";
+import Default from "./components/MainPages/Default";
+import Modal from "./components/MainPages/Modal";
 import Checkout from "./components/Checkout/Checkout";
 
 class App extends React.Component{

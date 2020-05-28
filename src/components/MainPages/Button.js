@@ -42,6 +42,7 @@ outline:none;
 export const HeadingButton = styled.button`
 text-transform:capitalize;
 font-size: 40px;
+text-align: center;
 background: 0.5rem solid var(--tomatoRed);
 color:var(--tomatoRed);
 border-radius: 0.5rem;

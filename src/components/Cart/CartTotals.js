@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import {DetailButton} from "../Main/Button";
+import {DetailButton} from "../MainPages/Button";
 export default class CartTotals extends Component {
     render() {
         const {

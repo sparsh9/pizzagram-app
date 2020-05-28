@@ -10,7 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import AddressForm from './AddressForm';
 import PaymentForm from './PaymentForm';
 import Review from './Review';
-import {DetailButton} from "../Main/Button";
+import {DetailButton} from "../MainPages/Button";
 
 const useStyles = makeStyles((theme) => ({
     appBar: {
